@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style1.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #18271af0;">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #18271af0; ">
         <a class="navbar-brand" href=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -18,16 +18,16 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-                <a class="nav-link" href="" style="color: #d1e0d5f0;">Home</a> 
+                <a class="nav-link active" href="#" style="color: #d1e0d5f0;" >Home</a> 
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="" style="color: #d1e0d5f0;">About</a> 
+                <a class="nav-link" href="#down" style="color: #d1e0d5f0;" >About</a> 
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="" style="color: #d1e0d5f0;">Houseboat Cruises</a> 
+                <a class="nav-link" href="#houseboats" style="color: #d1e0d5f0;">Houseboat Cruises</a> 
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="" style="color: #d1e0d5f0;">Contact</a> 
+                <a class="nav-link" href="#contact" style="color: #d1e0d5f0;" >Contact</a> 
             </li>
         </ul>
         </div>
@@ -54,7 +54,7 @@
         left: 700px;
         position:  center;
         border:1px solid white; background-color: transparent;color: white;
-        border-radius: 15%;">Explore</button>
+        border-radius: 15%;"   onclick="document.getElementById('down').scrollIntoView();">Explore</button>
         <span style="position: absolute;
         bottom: 0px;
         left: 725px;
@@ -62,8 +62,8 @@
         ">&#65086;</span>
         </figure>
     </div>
-    <div style="height:50px;"></div>
-    <div style="height: 300px;">
+    <div style="height:50px;" id="down"></div>
+    <div style="height: 300px;" id="down">
         <h2 style="text-decoration: underline;text-decoration-color: rgb(26, 56, 29); ">
             <center>BACKWATERS IN KOLLAM</center>
         </h2>
@@ -89,7 +89,7 @@
         height: 300px;
         top:  50px;
         left: 400px;  
-        background-color: rgb(20, 73, 84);">
+        background-color: rgb(20, 73, 84);" id="houseboats">
             <h2 style="color: rgb(255, 255, 255);">HOUSE BOATS<br></h2>
             <hr style="color: rgb(203, 164, 92); width: 270px;">
             <br>
@@ -100,7 +100,7 @@
     <div>
         <img class="image2" src="https://qph.fs.quoracdn.net/main-qimg-d59199c023b4c7c2d80edb883cddd53d"/>
     </div>
-    <div style="height: 150px; background-color: rgba(145, 168, 190, 0.689);">
+    <div style="height: 150px; background-color: rgba(145, 168, 190, 0.689);" id="contact">
         <br>
         <h4><center>Contact Us</center></h4>
         <br>
