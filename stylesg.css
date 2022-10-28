@@ -1,0 +1,267 @@
+hr{
+    border: 1px solid rgb(198, 132, 8);
+   /*color:rgb(236, 141, 8);*/
+}
+p.pn1{
+    color :#0c471696;
+   /* background-color:#0d551a96;*/
+    font-size:18px;
+    font-family:Georgia;
+    text-align:center;
+    /*Line height:distance between lines*/
+    line-height:30px;
+    letter-spacing:2px;
+    margin:50px;
+    /*column-count:2;
+    column-gap:40px;*/
+}
+img{
+    width: 300px;
+
+    height: 450px;
+    
+    margin: 10px 10px;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+div.column {
+    position:relative;
+    float: left;
+    width: 33.33%;
+    padding-bottom:80px;
+  }
+  
+  /* Clear floats after image containers */
+div.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin:50%;
+  }
+  div.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#236747;
+  }
+  
+  .column:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    font-family:Garamond;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  hr.hr1{
+    border-top: 5px solid rgba(248, 59, 6, 0.979);
+  }
+  div.bg-image1 {
+    /* The image used */
+    background-image: url("https://images.indianexpress.com/2021/07/houseboat.jpg");
+    /* Add the blur effect */
+    filter: blur(0.5px);
+    -webkit-filter: blur(0.5px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  div.bg-text1 {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    /*font-weight: bold;
+    border: 3px solid #f1f1f1;*/
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 50px;
+    text-align:left;
+  }
+  div.bg-image2 {
+    /* The image used */
+    background-image: url("https://www.keralatourism.org/images/houseboat-640x360.jpg");
+    /* Add the blur effect */
+    filter: blur(0.5px);
+    -webkit-filter: blur(0.5px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  div.bg-text2 {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    /*font-weight: bold;
+    border: 3px solid #f1f1f1;*/
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 50px;
+    text-align:left;
+  }
+  div.bg-image3 {
+    /* The image used */
+    background-image: url("https://images.indianexpress.com/2021/07/houseboat.jpg");
+    /* Add the blur effect */
+    filter: blur(0.5px);
+    -webkit-filter: blur(0.5px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  div.bg-text3 {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    /*font-weight: bold;
+    border: 3px solid #f1f1f1;*/
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 50px;
+    text-align:left;
+  }
+  div.bg-image4 {
+    /* The image used */
+    background-image: url("https://www.holidify.com/images/cmsuploads/compressed/BACKWATERS_OF_KUTTANAD_20180317154922.jpg");
+    /* Add the blur effect */
+    filter: blur(0.5px);
+    -webkit-filter: blur(0.5px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  div.bg-text4 {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    /*font-weight: bold;
+    border: 3px solid #f1f1f1;*/
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 50px;
+    text-align:left;
+  }
+  div.bg-image5 {
+    /* The image used */
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/17/ee/1b/e4/kerala-luxury-houseboat.jpg");
+    /* Add the blur effect */
+    filter: blur(0.5px);
+    -webkit-filter: blur(0.5px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  div.bg-text5 {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    /*font-weight: bold;
+    border: 3px solid #f1f1f1;*/
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 50px;
+    text-align:left;
+  }
+  div.bg-image6 {
+    /* The image used */
+    background-image: url("https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2019/03/Kettuvallams-Hoseboat-Kerala.jpg");
+    /* Add the blur effect */
+    filter: blur(0.5px);
+    -webkit-filter: blur(0.5px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  div.bg-text6 {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    /*font-weight: bold;
+    border: 3px solid #f1f1f1;*/
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 50px;
+    text-align:left;
+  }
