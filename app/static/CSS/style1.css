@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    background-color: rgb(250, 250, 246);
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #111416;
+    margin-top: 500px;
+    margin-left: 500px;
+    width: 140px;
+    height: 70px;
+    position: absolute;
+    border-radius: 7%;
+}
+
+.button2 {
+    background-color: #111416;
+    margin-top: 500px;
+    margin-left: 100px;
+    width: 140px;
+    height: 70px;
+    position: absolute;
+    border-radius: 7%;
+}
+
+textarea {
+    background-color: rgb(151, 205, 224);
+}
+
+.first-txt {
+    color: aliceblue;
+    position: center;
+    top: 300px;
+    left: 500px;
+    font-size: 49px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.second-txt {
+    color: aliceblue;
+    position: absolute;
+    bottom: 120px;
+    left: 400px;
+    position: center;
+    font-size: 29px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.parent {
+    height: 500px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.image1 {
+    width: 100%;
+    height: 100%;
+    opacity: 5;
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3);
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px solid #000000;
+}
+
+.image2 {
+    position: absolute;
+    width: 300px;
+    height: 270px;
+    top: 1550px;
+    left: 470px;
+    border: 1px solid #000000;
+}
