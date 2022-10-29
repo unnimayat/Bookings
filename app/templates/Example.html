@@ -20,10 +20,10 @@
     <div class="collapse navbar-collapse " id="#navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a style="color:rgb(251, 246, 246)" class="nav-link" href="">Home</a>
+          <a style="color:rgb(251, 246, 246)" class="nav-link" href="{{ url_for('index')}}">Home</a>
         </li>
         <li class="nav-item">
-          <a style="color:white" class="nav-link" href="">Contact</a>
+          <a style="color:white" class="nav-link" href="{{ url_for('index')}}">Contact</a>
         </li>
         <!--  <li class="nav-item"><a class="nav-link" href="" >Download</a>  </li>-->
       </ul>
@@ -83,23 +83,24 @@
   </style>
   <div align="center" class="row" style="height:1100px">
     <!-- Add the loop here -->
+    {% for d in data %}
     <div class="column">
       <div class="bg-image1"></div>
       <div class="bg-text1">
-        <h1 style="font-family:Garamond;font-size:30px;">MARINA HOUSEBOATS</h1>
-        <pre style="font-family:Garamond ;font-size:18px">Rating:3.5 <br>Packages starting at Rs.1000
+        <h1 style="font-family:Garamond;font-size:30px;font-weight: 10px;">{{d['trip']}}</h1>
+        <pre style=" font-family:Garamond ;font-size:18px">Rating:3.5 <br>{{d['time']}}
           </pre>
         <div class="overlay">
           <div class="text">
-            <pre style="font-family:Garamond ;font-size:18px"><img style="height:30px; width:30px;"src="https://www.pngitem.com/pimgs/m/45-453216_transparent-location-icon-png-png-download.png">ASHTAMUDI LAKE
-              1DAY 1NIGHT            Rs.2000/head<hr class=hr1>Includes a delicious seafood spread,
-              3 bedrooms and sunset halts   <br> 
+            <pre style="font-family:Garamond ;font-size:18px"><img style="height:30px; width:30px;"src="https://www.pngitem.com/pimgs/m/45-453216_transparent-location-icon-png-png-download.png">
+              {{d['time']}}   {{d['nights']}}<hr class=hr1>Includes a delicious seafood spread
+              <br> 
             </pre>
           </div>
         </div>
       </div>
     </div>
-
+    {% endfor %}
     <br><br><br><br>
     <br><br><br><br><br> <br><br><br><br><br> <br><br><br><br><br> <br><br><br>
     <div style="height: 150px; background-color: #236747;">

@@ -13,7 +13,10 @@ hb = db.hb
 def index():
     return render_template('front.html')
 
-
+@app.post('/display')
+def display():
+    data=hb.find()
+    return render_template('Example.html',data=data)
 
 if __name__ == '__main__':  
    app.run(debug = True)  
